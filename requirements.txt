@@ -1,0 +1,19 @@
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+sqlalchemy[asyncio]==2.0.36
+psycopg[binary]
+alembic==1.13.3
+redis==5.1.1
+rq==1.16.2
+python-dotenv==1.0.1
+pydantic-settings==2.5.2
+
+# ML & Search (Stage 4)
+torch==2.13.0
+torchvision==0.28.0
+sentence-transformers
+faiss-cpu
+
+# Object Storage (MinIO/boto3 removed — using local disk storage)
+# boto3
+
